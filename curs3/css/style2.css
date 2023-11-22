@@ -1,0 +1,44 @@
+div{
+    width: 45%;
+    float: left;
+    border: 2px solid #000000;
+    padding: 25px;
+    margin: 10px;
+}
+
+#stanga{
+    background-color: azure;
+}
+
+#dreapta{
+    background-color: snow;
+}
+
+.p1{
+    color: red;
+}
+
+.p2{
+    color: green;
+}
+
+.P3{
+    font-size: 50px;
+}
+
+#idp5 {
+    color: blueviolet;
+}
+
+#bottom{
+    width: 100%;
+}
+
+#bottom > p{
+    color: red;
+}
+
+#bottom article+p{
+    color: blue;
+}
+
