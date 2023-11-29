@@ -1,42 +1,43 @@
-html{
-    font-size: 14px !important;
-    font-family: Helvetica, Arial, Helvetica, sans-serif !important;
+html {
+  font-size: 14px;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
 }
 
-#nav_main{
-    width: 100%;
-    height: 100px;
-    background-color: brown;
-    color: white;
-
-}
-
-#nav_main ul li{
-    float: left;
-    display: inline-block;
-    list-style: none;
-}
-
-#nav_main .active, #nav_main ul li:hover{
-    background-color: rgb(82, 2, 2);
-    font-weight: bold;
-}
-
-#nav_main ul{
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
-}
-
-#nav_main ul li a {
-    color: #ffffff;
-    font-size: 1.3rem;
+#nav_main {
+  width: 100%;
+  height: 100px;
+  background-color: brown;
+  color: white;
+  font-family: "Ephesis", cursive;
+  
 }
 
 #nav_main ul li {
-    float: left;
-    display: inline-block;
-    list-style: none;
-    padding: 14px 25px;
+  float: left;
+  display: inline-block;
+  list-style: none;
 }
 
+#nav_main .active,
+#nav_main ul li:hover {
+  background-color: rgb(82, 2, 2);
+  font-weight: bold;
+}
+
+#nav_main ul {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+#nav_main ul li a {
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+#nav_main ul li {
+  float: left;
+  display: inline-block;
+  list-style: none;
+  padding: 14px 25px;
+}
