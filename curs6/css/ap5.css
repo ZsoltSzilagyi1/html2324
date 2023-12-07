@@ -1,0 +1,25 @@
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    padding: 5px;
+
+}
+
+input {
+    width: 300px;
+}
+
+#textmesaj {
+    display: inline-block;
+    margin: auto 0;
+}
+
+textarea {
+    display: inline-block;
+}
+
+#companie, #email {
+    display: inline-block;
+    box-shadow: 3px red;
+}
